@@ -1,0 +1,419 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: sans-serif;
+	background-color: #232947; 
+	color: #fff;
+}
+/* header */
+
+span{
+	background-color: white;
+	color:black;
+	padding: 3px;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #232947; 
+	color: #FFF;
+	padding: 18px;
+}
+header a 
+{
+	color: white;
+	text-decoration: none;
+
+}
+
+.ban{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 350px;
+	background-color: #232947;
+	color: #FFF;
+}
+
+.parahead{
+	display: flex;
+	align-items: center;
+}
+
+.ban h1{
+	margin: 20px;
+}
+
+.ban p{
+	margin: 20px;
+}
+
+#btn_inscr
+{
+	background: none;
+	height: 50px;
+	width: 150px;
+	padding: 5px;
+	border: 2px solid white;
+}
+
+.fa-long-arrow-right{
+	margin-left: 20px;
+}
+
+
+/*end header*/
+
+/* Section image */
+
+.imagedumilieu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.bloc1, .bloc2, .bloc3{
+	display: flex;
+	width: 100%;
+	height: 300px;
+	justify-content: space-between;
+}
+
+.bloc1 div, .bloc2 div, .bloc3 div{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.bloc1 article, .bloc2 article, .bloc3 article{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.bloc1 div::before{
+    
+    background-color: rgba(121, 192, 216, 0.5);
+    content: "";
+    height: 100%;
+    width: 100%;
+    
+}
+.bloc1 div:hover {
+    background-image: url("images/pic01.jpg");
+}
+
+.bloc1 div {
+    background-image: url("images/pic01.jpg");
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bloc1 h2 {
+    margin-left: -100%;
+}
+
+.bloc1 p {
+    margin-left: -100%;
+}
+.bloc1 article{
+		background-image: url("images/pic02.jpg");
+
+}
+
+.bloc2 article{
+	background-image: url("images/pic03.jpg");
+}
+
+.bloc2 div{
+		background-image: url("images/pic04.jpg");
+
+}
+
+.bloc3 div{
+	background-image: url("images/pic05.jpg");
+}
+
+.bloc3 article{
+	background-image: url("images/pic06.jpg");
+
+}
+
+/* End section image */
+
+
+/*massa libero*/
+
+
+
+
+/*end massa libero*/
+
+/*contact*/
+
+.formulaire {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
+    
+    padding: 25px;
+    
+}
+
+#envoyer {
+	margin: 15px;
+	height: 50px;
+	width: 150px;
+    
+	background-color: #fff;
+	color: #232947;
+    border: none;
+}
+
+#effacer {
+	margin:15px;
+	height: 50px;
+	width: 150px;
+    
+	border:solid 3px white;
+    color: white;
+    background-color: #232947; 
+}
+.duobouton{
+	display: flex;
+	flex-direction: row;
+}
+
+.duoinput{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.duoinput p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form input {
+	border: inherit;
+	background-color: rgba(212,212,255,0.035)!important;
+    width: 100%;
+
+}
+
+textarea {
+	height: 170px;
+	background-color: rgba(212,212,255,0.035);
+	border: inherit;
+}
+
+label {
+	margin-bottom: 10px; 
+}
+
+.contact{
+	display: flex;
+	justify-content: space-between;
+    align-items: stretch;
+    
+}
+section form{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+}
+section form label{
+
+}
+section form input{
+	height: 50px;
+	background-color: rgba(35,41,71,0.1);
+}
+aside a{
+	color: white;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+/*end contact*/
+
+
+/* footer */
+
+footer ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+footer li{
+	margin: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+	background-color: #232947;
+    border: 1px rgba(212,212,255,0.035) ridge;
+    padding: 25px;
+
+}
+footer a{
+	color: #FFF;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    
+    height: 100%;
+    width: 50%;
+}
+.yolo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    height: 100%;
+    
+    padding: 25px 50px 25px 50px;
+    background-color: #2A2F4A;
+}
+
+.yolo hr {
+    width: 20%;
+    margin: 15px 0 15px 0;
+}
+
+.yolo p {
+    padding: 20px;
+    
+}
+
+.yolo button {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 125px;
+    
+    border:solid 2px white;
+    color: white;
+    background-color: #232947;
+}
+form {
+    border: 1px rgba(212,212,255,0.035) ridge;
+    width: 100%;
+}
+aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    border: 1px rgba(212,212,255,0.035) ridge;
+    padding: 20px;
+}
+
+aside div p {
+    display: flex;
+    flex-direction: column;
+}
+
+i {
+    margin-right: 15px;
+}
+
+aside div:nth-child(3) {
+    border-bottom: none;
+}
+
+#cross {
+    background:none;
+    position:absolute;
+    
+
+    top:0px;
+    right:0;
+    padding:13px 15px 0px 15px;
+    color:#fff;
+    border:0;
+    font-size:2em;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+}
+
+#hamburger {
+
+}
+
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313; opacity: 0.8; height: 100%;  position:absolute; text-align:center;}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 50px;
+    width: 100px;
+    list-style: none;
+    
+    background-color: #131313;
+    border: 1px white ridge;
+}
+
+section div button {
+    color: white;
+}
+
+.fixed{  /* To fix main menu container */
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/*end footer*/
+/* couleur bleu clair #2A2F4A*/
+/* couleur des div image #77BFD8 #7D75B3 #E4928A #DFB790 #889ED5 #7AAE95 */
+
+
+
+

@@ -1,0 +1,27 @@
+@media screen and (max-width: 640px) {
+  
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .bloc1, .bloc2, .bloc3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .parahead {
+        display: flex;
+        flex-direction: column;
+    }
+    .yolo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .yolo p {
+        text-align: center;
+    }
+    
+}
